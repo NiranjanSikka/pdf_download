@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-    get 'index' => 'test#index'
+    get 'Sunburst' => 'test#Sunburst'
     get 'hello' => 'test#hello'
-    get 'excel' => 'test#excel'
+    get 'flare' => 'test#flare'
+    get 'Bubble_chart' => 'test#Bubble_chart'
+    get 'hello1' => 'test#hello1'
+    get 'miserables' => 'test#miserables'
 end
